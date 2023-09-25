@@ -1,5 +1,5 @@
 # Fase de construcción
-FROM node:16 AS build
+FROM node:18.14.1 AS build
 
 WORKDIR /app
 
